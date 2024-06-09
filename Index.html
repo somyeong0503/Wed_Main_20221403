@@ -8,6 +8,55 @@
             color: white;
             }
             </style>            
+             <style>
+              body {
+                  display: flex;
+                  min-height: 100vh;
+                  flex-direction: column;
+                  margin: 0;
+                  font-family: Arial, sans-serif;
+              }
+              main {
+                  flex: 1;
+              }
+              footer {
+                  background-color: #2c3e50;
+                  color: #ecf0f1;
+                  text-align: center;
+                  padding: 20px 0;
+                  position: relative;
+              }
+              footer p {
+                  margin: 0;
+                  padding: 0;
+                  font-size: 16px;
+              }
+              footer div {
+                  margin: 10px 0;
+              }
+              footer a {
+                  color: #1abc9c;
+                  text-decoration: none;
+                  margin: 0 10px;
+                  font-size: 14px;
+                  transition: color 0.3s;
+              }
+              footer a:hover {
+                  color: #16a085;
+              }
+              footer .back-to-top {
+                  display: inline-block;
+                  margin-top: 10px;
+                  padding: 10px 20px;
+                  background-color: #1abc9c;
+                  color: #fff;
+                  border-radius: 5px;
+                  transition: background-color 0.3s;
+              }
+              footer .back-to-top:hover {
+                  background-color: #16a085;
+              }
+          </style>
         <meta name=“author” content=“20221403”>
         <meta name=“keywords” content=“computer”>
         <base href="http://127.0.0.1:5500">
@@ -44,6 +93,9 @@
                     <a class="nav-link active" aria-current="page" href="#">홈페이지</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="login/profile.html" target="_blank">기본정보(프로필)</a>
+                </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">게임정보</a>
                   </li>
                   <li class="nav-item">
@@ -68,6 +120,7 @@
                     <button class="btn btn-outline-success" id="search_button_msg" type="submit">검색하기</button>
                     <a href = "/login/login.html" class="btn btn-outline-success" id="login_btn">로그인 하기</a>
                   </form>
+                  <button class="btn btn-outline-success" type="submit" onclick="location.href='/login/join.html'" style="width: 62px;">회원가입</button>
                 </div>
               </nav>
             </div>
@@ -114,4 +167,12 @@
               </table>
                 </div>               
         </body>
+        <footer>
+          <p>&copy;성결대 미디어소프트웨어학과</p>
+          <div>
+             <a href="mailto:wlthaud123@naver.com">이메일</a>
+             <a href="https://githud.com/0503-2001">깃허브</a>
+          </div>
+          <a href= "#top"> 상단으로 </a>
+      </footer>
 </html> 
