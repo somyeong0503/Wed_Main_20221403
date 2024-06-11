@@ -2,7 +2,15 @@ var jb = 'hi'; // 변수 선언 후 주석 가능(한줄 주석)
 var a = 1;
 var b;
 b = 5;
-
+function session_del() { // 세션 삭제
+    if(sessionStorage) {
+        sessionStorage.removeItem("Session_Storage_id");
+        sessionStorage.removeItem("Session_Storage_pass");
+        alert('5분 초과로 자동 로그아웃');
+        location.href='../index.html'
+    } 
+}
+ setTimeout(session_del,300000);
 /*
 여러 줄 주석 : 여러 줄에 걸쳐 주석을 처리합니다.
 */

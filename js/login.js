@@ -1,5 +1,13 @@
 let loginRestricted = false; // 로그인 제한 상태
 
+function logout() {
+        console.log("jison")
+        sessionStorage.removeItem("Session_Storage_id");
+        sessionStorage.removeItem("Session_Storage_pass");
+        alert('로그아웃 버튼 클릭 확인 : 세션 스토리지를 삭제합니다.');
+    
+};
+
 function login_failed() {
     let login_fail_cnt = parseInt(getCookie("login_fail_cnt")) || 0;
     login_fail_cnt++;
@@ -84,8 +92,12 @@ const check_input = () => {
         setCookie("id", emailValue, 0); // 쿠키 삭제
     }
 
+    // setTimeout(logout,1000);
+
+
     session_set(); // 세션 생성
     loginForm.submit();
+    
 };
 
 const init = () => {
@@ -97,9 +109,16 @@ const init = () => {
         idsave_check.checked = true;
     }
     session_check(); // 세션 유무 검사
+    
 };
 
-document.getElementById("login_btn").addEventListener('click', check_input);
+
+
+
+
+ document.getElementById("login_btn").addEventListener('click', check_input);
+
+
 
 function addJavascript(jsname) { // 자바스크립트 외부 연동
     var th = document.getElementsByTagName('head')[0];
@@ -111,3 +130,6 @@ function addJavascript(jsname) { // 자바스크립트 외부 연동
 addJavascript('/js/security.js'); // 암복호화 함수
 addJavascript('/js/session.js'); // 세션 함수
 addJavascript('/js/cookie.js'); // 쿠키 함수
+
+
+

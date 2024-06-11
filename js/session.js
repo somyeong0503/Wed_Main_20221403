@@ -1,5 +1,7 @@
 // Session Module
 
+
+
 const session_set = () => {
     const session_id = document.querySelector("#typeEmailX").value;
     const session_pass = document.querySelector("#typePasswordX").value;
@@ -45,6 +47,8 @@ const init_logined = () => {
     }
 };
 
+
+
 function session_join_set(){ //세션 저장(객체)    
 let f_name = document.querySelector("#firstName").value;
 let l_name = document.querySelector("#lastName").value;
@@ -64,6 +68,7 @@ const objString = JSON.stringify(newSignUp); // 객체 -> JSON 문자열 변환
 let en_text = encrypt_text(objString); // 암호화
 sessionStorage.setItem("Session_Storage_new_user", objString);
 sessionStorage.setItem("Session_Storage_new_user_encryted", en_text);
+
 } else {
 alert("세션 스토리지 지원 x");
 } 
