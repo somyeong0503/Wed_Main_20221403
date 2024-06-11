@@ -76,3 +76,7 @@ This project is a starting point for a Web application.
 ## 15주차(보강주) 추가구현!
 - 카카오맵 키워드 검색및 목록 출력 화면 구현
 - 프로필 사진 변경
+
+## 개인 추가구현
+- 로그인,회원가입,가입하기 css로 꾸미기 ![alt text](image-1.png)
+- 푸터 깃허브,이메일 연결링크 넣고 버튼 누르면 연결시키기 및 css로 꾸미기 ![alt text](image-2.png)
