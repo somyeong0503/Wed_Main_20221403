@@ -78,5 +78,7 @@ This project is a starting point for a Web application.
 - 프로필 사진 변경
 
 ## 개인 추가구현
-- 로그인,회원가입,검색하기버튼 css로 꾸미기
-- 푸터에 깃허브,이메일로 버튼을 누르면 연결하였고 푸터를 css를 이용하여 만들었습니다.
+- 로그인,회원가입,검색하기버튼 css로 꾸미기  ![image](https://github.com/somyeong0503/Wed_Main_20221403/assets/162947451/f553a115-a236-4973-8078-cde9b593f225)
+
+- 푸터에 깃허브,이메일로 버튼을 누르면 연결하였고 푸터를 css를 이용하여 만들었습니다. ![image](https://github.com/somyeong0503/Wed_Main_20221403/assets/162947451/a89cb829-bf03-4728-ab95-04b7fb28ea61)
+
