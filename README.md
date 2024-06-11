@@ -79,6 +79,9 @@ This project is a starting point for a Web application.
 
 ## 개인 추가구현
 - 로그인,회원가입,가입하기 css로 꾸미기 
+
 ![alt text](image-1.png)
+
 - 푸터 깃허브,이메일 연결링크 넣고 버튼 누르면 연결시키기 및 css로 꾸미기 
+
 ![alt text](image-2.png)
