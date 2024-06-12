@@ -84,7 +84,7 @@ This project is a starting point for a Web application.
 
 - 푸터 깃허브,이메일 연결링크 넣고 버튼 누르면 연결시키기 및 css로 꾸미기 
 
-![alt text](image-2.png)
+![alt text](image-4.png)
 
 - 개인프로필 옆 소개하는곳에 카카오톡,이메일,블로그 링크로 채워넣었습니다.
 
